@@ -1,0 +1,185 @@
+body {
+    height: 2000px;
+}
+
+h2, h3 {
+    font-weight: normal;
+}
+
+.blockOne {
+    width: 520px;
+    height: 750px;
+    position: absolute;
+    top: 0;
+    right: -40px;
+    bottom: -470px;
+    left: 0;
+    margin: auto;
+    background: darkgray;
+    border: 1.5px solid black;
+}
+
+.blockTwo {
+    width: 520px;
+    height: 750px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: -430px;
+    left: 0;
+    margin: auto;
+    background: lightgrey;
+    border: 1.5px solid black;
+}
+
+.blockThree {
+    width: 520px;
+    height: 750px;
+    position: absolute;
+    top: 0;
+    right: 40px;
+    bottom: -390px;
+    left: 0;
+    margin: auto;
+    background: whitesmoke;
+    border: 1.5px solid black;
+    border-left: 2px solid black;
+}
+
+.rectangleBlue {
+    float: right;
+    position: relative;
+    width: 105px;
+    height: 30px;
+    right: -15px;
+    bottom: -50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: deepskyblue;
+    border: 1.5px solid black;
+}
+
+.rectangleGreen {
+    float: right;
+    position: relative;
+    width: 105px;
+    height: 30px;
+    right: -50px;
+    bottom: -45px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: limegreen;
+    border: 1.5px solid black;
+}
+
+.rectangleOrange {
+    float: right;
+    position: relative;
+    width: 105px;
+    height: 30px;
+    right: -80px;
+    bottom: -40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: coral;
+    border: 1.5px solid black;
+}
+
+.content {
+    margin-top: 7%;
+    margin-left: 6%;
+    font-size: 95%;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.imgLeft {
+    float: left;
+    width: 44%;
+}
+
+.textRight {
+    float: right;
+    width: 49%;
+    font-size: 80%;
+    margin-right: 5%;
+    margin-left: 2%;
+}
+
+.textTwo {
+    float: left;
+    font-size: 80%;
+}
+
+.textLeft {
+    float: left;
+    width: 65%;
+    font-size: 80%;
+    margin-top: 4%;
+}
+
+.imgRight {
+    float: right;
+    width: 30%;
+    margin-right: 5%;
+    margin-top: 4%;
+}
+
+.textThree {
+    float: left;
+    font-size: 95%;
+}
+
+.imgOne {
+    float: left;
+    width: 50%;
+}
+
+.imgTwo {
+    float: right;
+    width: 46%;
+    margin-left: 4%;
+}
+
+.imgThree {
+    float: left;
+    width: 54%;
+    margin-top: 2%;
+}
+
+.imgFour {
+    float: right;
+    width: 46%;
+    margin-top: 2%;
+}
+
+.textFloor {
+    float: left;
+    text-align: center;
+    font-size: 58%;
+    margin-top: 6%;
+    margin-left: 1%;
+    margin-right: 5%;
+}
+
+.blockFloor {
+    width: 90px;
+    height: 70px;
+    position: fixed!important;
+    top: 90%;
+    right: 0;
+    bottom: 0;
+    left: 60%;
+    margin: auto;
+    background: sandybrown;
+    border: 1px solid black;
+}
+
+.textInBlock {
+    font-family: 'PT Sans', sans-serif;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.imgInBlock {
+    margin: 10%;
+}
